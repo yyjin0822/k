@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Remove default list padding */
+nav.navBar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Nav bar container */
+nav.navBar {
+  width: 100%;
+  padding: 1rem;
+  background-color: #f9f9f9;
+
+}
+
+/* Nav bar list */
+nav.navBar ul {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+nav.navBar li {
+  padding: 0 1rem;
+}
+
+nav.navBar a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+nav.navBar a:hover {
+  color: #555;
+}
+
+.cartIcon {
+  font-size: 1.1rem;
+  
+}
+
+/* Responsive design for nav bar */
+@media (max-width: 768px) {
+  nav.navBar ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav.navBar li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Further responsive adjustments if needed */
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}

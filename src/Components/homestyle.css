@@ -1,0 +1,47 @@
+/* homestyle.css */
+.homeImage {
+  display: block; /* 이미지를 블록 요소로 만들어 줍니다. */
+  margin: 0 auto; /* 상하 마진은 0, 좌우 마진은 자동으로 설정하여 가운데 정렬합니다. */
+  width: 80%; /* 이미지의 너비를 설정합니다. */
+  height: auto; /* 이미지의 높이를 비율에 맞게 자동으로 조절합니다. */
+  transition: transform 0.3s ease; /* hover 효과 시 변환에 대한 부드러운 전환을 설정합니다. */
+}
+
+.homeImage:hover {
+  transform: scale(1.05); /* 마우스를 올렸을 때 이미지를 약간 확대합니다. */
+}
+
+/* 기타 아이콘들에 대한 스타일 */
+.clockIcon, .phoneIcon, .locationIcon {
+  display: block;
+  margin: 10px auto; /* 아이콘 위아래에 약간의 공간을 추가하고 가운데 정렬합니다. */
+  width: 25px; /* 아이콘의 너비를 설정합니다. */
+  height: auto; /* 아이콘의 높이를 자동으로 설정합니다. */
+}
+
+/* 텍스트 및 기타 요소들을 가운데 정렬합니다. */
+td, div {
+  text-align: center; /* 텍스트를 가운데 정렬합니다. */
+  margin: auto;
+}
+
+/* 맵 컴포넌트를 감싸는 div에 대한 스타일 */
+div > .locationIcon + div {
+  display: inline-block; /* div를 인라인 블록으로 만들어 줍니다. */
+  vertical-align: middle; /* 세로 정렬을 중앙으로 맞춥니다. */
+}
+
+/* 테이블에 대한 가운데 정렬과 마진 설정 */
+table {
+  margin: 0 auto; /* 테이블을 페이지의 가운데에 위치시킵니다. */
+}
+
+/* 테이블의 각 셀(td)에 대한 패딩과 호버 효과 */
+td {
+  padding: 15px; /* 셀 안에 내용과의 여백을 설정합니다. */
+  transition: background-color 0.3s ease; /* 배경색 변경에 대한 부드러운 전환 효과를 적용합니다. */
+}
+
+td:hover {
+  background-color: #f2f2f2; /* 셀 위에 마우스를 올렸을 때 배경색을 변경합니다. */
+}

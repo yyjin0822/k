@@ -1,0 +1,127 @@
+@charset "utf-8";
+*{
+    margin: 0 auto;
+    /* box-sizing: border-box; */
+}
+.cart{
+    width: 100%;
+    height: 100%;
+
+}
+h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.number>label>span{
+    font-size: 18px;
+    font-weight: bold;
+}
+input{
+    font-size: 15px;
+}
+p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.box{
+    width: 50%;
+    margin-top: 20px;
+    /* border-top: 0.5px solid #dddddd;
+    border-bottom: 0.5px solid #dddddd; */
+    /* border: 0.5px solid #dddddd;
+    border-radius: 10px; */
+    margin-bottom: 20px;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    border: 0.5px solid #dddddd;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 20px;
+}
+.right {
+    width:100%;
+    margin-top:40px;
+    margin-right:50px;
+}
+.name{
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    height: 50px;
+    font-weight: bold;
+    display: block;
+}
+.deleteB{
+    float: right;
+}
+.right-top{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.option{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+    justify-content: space-between;
+}
+.img{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    margin-right:50px;
+    display: flex;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.price{
+    width:300px;
+    text-align: left;
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    height: 50px;
+}
+.count{
+    height: 50px;
+}
+.count>button{
+    width: 40px;
+    height: 40px;
+    border-color: #fff;
+}
+.tem {
+    height:50px;
+    display: flex;
+    align-items: center;
+}
+.tem>button{
+    height:40px;
+}
+.deleteB{
+    height:50px;
+    display: flex;
+}
+.deleteB>button{
+    width: 50px;
+    height: 40px;
+}
+.footer{
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.footer>.t-price{
+    margin-right:20px;
+}
